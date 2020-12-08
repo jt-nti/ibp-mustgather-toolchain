@@ -115,42 +115,8 @@
         },
         {
             "type": "table",
-            "columnCount": 3,
-            "widths": ["50%", "3%", "47%"],
-            "items": [{
-                "type": "label",
-                "title": {
-                    "$ref": "#/messages/deploy.containerregRegion"
-                }
-            }, {
-                "type": "label",
-                "title": ""
-            }, {
-                "type": "label",
-                "title": {
-                    "$ref": "#/messages/deploy.containerregns"
-                }
-            }, {
-                "type": "select",
-                "title": {
-                    "$ref": "#/messages/deploy.containerregRegion"
-                },
-                "key": "registry-region"
-            }, {
-                "type": "label",
-                "title": ""
-            }, {
-                "type": "select",
-                "readonly": false,
-                "title": {
-                    "$ref": "#/messages/deploy.containerregns"
-                },
-                "key": "registry-namespace"
-            }]
-        }, {
-            "type": "table",
-            "columnCount": 7,
-            "widths": ["24%", "2%", "24%", "3%", "23%", "1%", "23%"],
+            "columnCount": 5,
+            "widths": ["30%", "5%", "30%", "5%", "30%"],
             "items": [{
                     "type": "label",
                     "title": {
@@ -175,15 +141,6 @@
                         "$ref": "#/messages/deploy.cluster"
                     }
                 }, {
-                    "type": "label",
-                    "title": ""
-                },
-                {
-                    "type": "label",
-                    "title": {
-                        "$ref": "#/messages/deploy.clusterNs"
-                    }
-                }, {
                     "type": "select",
                     "key": "prod-region"
                 }, {
@@ -202,14 +159,6 @@
                     "type": "select",
                     "key": "prod-cluster-name",
                     "readonly": false
-                }, {
-                    "type": "label",
-                    "title": ""
-                },
-                {
-                    "type": "text",
-                    "key": "prod-cluster-namespace",
-                    "readonly": false
                 }
             ]
         }, {
@@ -220,16 +169,6 @@
                 "type": "label",
                 "title": {
                     "$ref": "#/messages/deploy.clusterDescription"
-                }
-            }]
-        }, {
-            "type": "table",
-            "columnCount": 1,
-            "widths": ["100%"],
-            "items": [{
-                "type": "label",
-                "title": {
-                    "$ref": "#/messages/deploy.clusternsDescription"
                 }
             }]
         }
